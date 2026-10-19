@@ -1,0 +1,39 @@
+
+# Blocks temporary, auto-generated files Python creates when running scripts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+
+# Blocks background autosaves, default cloud data, and scratchpads
+.ipynb_checkpoints/
+.config/
+sample_data/
+.Trash*/
+
+
+# Blocks massive local installation folders. (Keep requirements.txt!)
+.venv/
+venv/
+ENV/
+env/
+
+
+# Blocks private API keys, database passwords, and environment profiles
+.env
+*.env
+env.bak
+vcap.json
+
+
+# Blocks personal layout preferences, workspace files, and window states
+.vscode/
+.idea/
+*.swp
+*.suo
+
+
+# Blocks hidden file index tables created by macOS and Windows
+.DS_Store
+Thumbs.db
