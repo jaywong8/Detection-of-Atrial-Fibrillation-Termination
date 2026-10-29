@@ -1,0 +1,16 @@
+{
+  "input_seconds": 10,
+  "prediction_horizon_seconds": 30,
+  "stride_seconds": 10,
+  "sampling_rate_hz": 250,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "test_fraction": 0.15,
+  "random_seed": 42,
+  "max_windows_per_episode": 3,
+  "max_windows_per_patient": 100,
+  "validation_sample_n": 3000,
+  "test_sample_n": 3000,
+  "label_definition": "1 if annotated interval ends within (0, 30] seconds; 0 if annotated interval ends more than 30 seconds later",
+  "warning": "Labels indicate annotated interval ends, not verified clinical AF termination or conversion to sinus rhythm."
+}
