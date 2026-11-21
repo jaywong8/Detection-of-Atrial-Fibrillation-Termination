@@ -37,3 +37,20 @@ vcap.json
 # Blocks hidden file index tables created by macOS and Windows
 .DS_Store
 Thumbs.db
+
+
+# Signal caches and model checkpoints (large; live in the shared Drive folder instead)
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+
+# Experiment-tracking output and logs
+wandb/
+runs/
+lightning_logs/
+*.log
+
+# Test and notebook-tool caches
+.pytest_cache/
