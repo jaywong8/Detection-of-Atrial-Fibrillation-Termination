@@ -1,0 +1,17 @@
+{
+  "width": 32,
+  "dropout": 0.2,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "batch_size": 64,
+  "max_epochs": 40,
+  "patience": 8,
+  "augment": true,
+  "class_weight": true,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "input": "10s raw ECG, 250Hz, per-window median/std normalized"
+}
